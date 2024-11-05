@@ -1,0 +1,5 @@
+let text = prompt("Enter your text:")
+text = text.trim()
+text = text.toLocaleUpperCase()
+halflentext = Math.ceil(text.length / 2)
+alert(text.substring(0,halflentext))
